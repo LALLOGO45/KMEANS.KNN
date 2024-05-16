@@ -4,9 +4,9 @@
 \name{KMEANS.KNN-package}
 \alias{KMEANS.KNN}
 \alias{KMEANS.KNN-package}
-\title{KMEANS.KNN: K-Means and K-NN Clustering Package}
+\title{KMEANS.KNN: KMeans and KNN Clustering Package}
 \description{
-This package implements the K-means clustering algorithm and a supervised K-NN (K Nearest Neighbors) learning method in R. It allows users to perform unsupervised clustering and supervised classification on their datasets. Additional features include data normalization, imputation of missing values, and the choice of distance metric. The package also provides functions to determine the optimal number of clusters for K-means and the best k-value for K-NN: `knn_Function`, `find_Knn_best_k`, `KMEANS_FUNCTION`, and `find_Kmeans_best_k`.
+Implementation of Kmeans clustering algorithm and a supervised KNN (K Nearest Neighbors) learning method. It allows users to perform unsupervised clustering and supervised classification on their datasets. Additional features include data normalization, imputation of missing values, and the choice of distance metric. The package also provides functions to determine the optimal number of clusters for Kmeans and the best k-value for KNN: knn_Function(), find_Knn_best_k(), KMEANS_FUNCTION(), and find_Kmeans_best_k().
 }
 \author{
 \strong{Maintainer}: LALLOGO Lassané \email{lassanelallogo2002@gmail.com} (\href{https://orcid.org/0009-0004-1637-3511}{ORCID})

@@ -32,7 +32,7 @@ find_Knn_best_k <- function(data, target_column, k_values, Prop_train=0.8) {
   assert_that(is.numeric(Prop_train), Prop_train > 0, Prop_train < 1)
 
   # Split the data into training and test sets
-  set.seed(123)
+  #set.seed(123)
   index <- createDataPartition(data[[target_column]], p = Prop_train, list = FALSE)
   train_data <- data[index, ]
   test_data <- data[-index, ]

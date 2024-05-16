@@ -4,7 +4,7 @@
 \alias{find_Kmeans_best_k}
 \title{find_Kmeans_best_k}
 \usage{
-find_Kmeans_best_k(data, max_k = 10, Method = "coude")
+find_Kmeans_best_k(data, max_k = 10, Method = "coude", verbose = FALSE)
 }
 \arguments{
 \item{data}{The dataset for which K-means clustering will be performed.}
@@ -14,6 +14,8 @@ find_Kmeans_best_k(data, max_k = 10, Method = "coude")
 \item{Method}{The method used to determine the optimal number of clusters.
 Acceptable values are "coude" (elbow method), "silhouette" (silhouette method),
 or "gap" (gap statistics).}
+
+\item{verbose}{Logical. If TRUE, additional output is provided.}
 }
 \value{
 This function does not return a value but prints the optimal number of clusters

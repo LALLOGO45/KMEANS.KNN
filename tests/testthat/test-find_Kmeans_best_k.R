@@ -1,7 +1,7 @@
 # Remove the install.packages("testthat") line as it's not needed
 library(testthat)
 
-context("Testing find_Kmeans_best_k function")
+#context("Testing find_Kmeans_best_k function")
 
 test_that("function returns correct output for elbow method", {
   data(iris)
