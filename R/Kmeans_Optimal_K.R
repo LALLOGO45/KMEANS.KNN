@@ -66,7 +66,7 @@ find_Kmeans_best_k <- function(data, max_k = 10, Method = "coude", verbose = FAL
     # Gap Statistics
     gap_statistic <- numeric(max_k)
     for (k in 1:max_k) {
-      set.seed(123) # Set seed outside the function for reproducibility
+
       kmeans_model <- kmeans(data, centers = k, nstart = 10)
       gap_statistic[k] <- sum(log(wcss[k])) - log(kmeans_model$tot.withinss)
     }

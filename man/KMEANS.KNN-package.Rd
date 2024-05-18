@@ -8,6 +8,13 @@
 \description{
 Implementation of Kmeans clustering algorithm and a supervised KNN (K Nearest Neighbors) learning method. It allows users to perform unsupervised clustering and supervised classification on their datasets. Additional features include data normalization, imputation of missing values, and the choice of distance metric. The package also provides functions to determine the optimal number of clusters for Kmeans and the best k-value for KNN: knn_Function(), find_Knn_best_k(), KMEANS_FUNCTION(), and find_Kmeans_best_k().
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://GitHubID.github.io/KMEANS.KNN}
+}
+
+}
 \author{
 \strong{Maintainer}: LALLOGO Lassané \email{lassanelallogo2002@gmail.com} (\href{https://orcid.org/0009-0004-1637-3511}{ORCID})
 
