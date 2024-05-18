@@ -1,4 +1,7 @@
-url: ~
+url: https://GitHubID.github.io/KMEANS.KNN
 template:
   bootstrap: 5
 
+
+development:
+  mode: auto
